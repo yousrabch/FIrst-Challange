@@ -67,7 +67,7 @@ width: 100%;
 
     width: 350px;
     height: 140px;
-    background-image: url('../img/bg-pattern-card.svg');
+    background-image: url('.././img/bg-pattern-card.svg');
     object-fit: cover ;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
