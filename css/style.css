@@ -1,21 +1,32 @@
-body{
-   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.wrapper{
+
     background-color:  hsl(185, 75%, 39%)  ;
     position: relative;
     overflow: hidden;
     height: 100vh;
     width: 100vw;
+    max-height: 100%;
+
+
 }
 .bod {
    
  display: flex;
  justify-content: center;
  align-items: center;
- height: 100vh;
+ height: 100%;
+width: 100%;
  font-size: 18px;
  overflow: hidden;
- width: 100%;
- 
+ padding: 0px 20px;
+
+
 }
 
 .bagbag .bag1 {
@@ -47,7 +58,7 @@ body{
    border-radius: 15px;
    position: relative;
    
-   
+  
     
    
 }
